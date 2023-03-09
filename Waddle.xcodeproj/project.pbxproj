@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87DC12A727D78B5F00267D2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12A627D78B5F00267D2E /* AppDelegate.swift */; };
+		87DC12A927D78B5F00267D2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12A827D78B5F00267D2E /* SceneDelegate.swift */; };
+		87DC12AB27D78B5F00267D2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12AA27D78B5F00267D2E /* ViewController.swift */; };
+		87DC12AE27D78B5F00267D2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC12AC27D78B5F00267D2E /* Main.storyboard */; };
+		87DC12B027D78B6100267D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DC12AF27D78B6100267D2E /* Assets.xcassets */; };
+		87DC12B327D78B6100267D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC12B127D78B6100267D2E /* LaunchScreen.storyboard */; };
+		87DC12BE27D78B6100267D2E /* WaddleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12BD27D78B6100267D2E /* WaddleTests.swift */; };
+		87DC12C827D78B6100267D2E /* WaddleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12C727D78B6100267D2E /* WaddleUITests.swift */; };
+		87DC12CA27D78B6100267D2E /* WaddleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12C927D78B6100267D2E /* WaddleUITestsLaunchTests.swift */; };
+		87DC12DF27D78B9400267D2E /* WRDHeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12D627D78B9400267D2E /* WRDHeadingView.swift */; };
+		87DC12E027D78B9400267D2E /* WRDWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12D727D78B9400267D2E /* WRDWordView.swift */; };
+		87DC12E127D78B9400267D2E /* WRDKeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12D827D78B9400267D2E /* WRDKeyboardButton.swift */; };
+		87DC12E227D78B9400267D2E /* WRDMessengerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12D927D78B9400267D2E /* WRDMessengerButton.swift */; };
+		87DC12E327D78B9400267D2E /* WRDKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12DA27D78B9400267D2E /* WRDKeyboardView.swift */; };
+		87DC12E427D78B9400267D2E /* WRDLetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12DB27D78B9400267D2E /* WRDLetterView.swift */; };
+		87DC12E527D78B9400267D2E /* WRDGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12DC27D78B9400267D2E /* WRDGridView.swift */; };
+		87DC12E627D78B9400267D2E /* WRDGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12DD27D78B9400267D2E /* WRDGameController.swift */; };
+		87DC12E727D78B9400267D2E /* WRDDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC12DE27D78B9400267D2E /* WRDDictionary.swift */; };
+		87E63B6227DB38F70003506C /* WRDString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E63B6127DB38F70003506C /* WRDString.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87DC12BA27D78B6100267D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87DC129B27D78B5F00267D2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87DC12A227D78B5F00267D2E;
+			remoteInfo = Waddle;
+		};
+		87DC12C427D78B6100267D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87DC129B27D78B5F00267D2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87DC12A227D78B5F00267D2E;
+			remoteInfo = Waddle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87DC12A327D78B5F00267D2E /* Waddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DC12A627D78B5F00267D2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87DC12A827D78B5F00267D2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		87DC12AA27D78B5F00267D2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87DC12AD27D78B5F00267D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87DC12AF27D78B6100267D2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87DC12B227D78B6100267D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87DC12B427D78B6100267D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87DC12B927D78B6100267D2E /* WaddleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaddleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DC12BD27D78B6100267D2E /* WaddleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaddleTests.swift; sourceTree = "<group>"; };
+		87DC12C327D78B6100267D2E /* WaddleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaddleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DC12C727D78B6100267D2E /* WaddleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaddleUITests.swift; sourceTree = "<group>"; };
+		87DC12C927D78B6100267D2E /* WaddleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaddleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87DC12D627D78B9400267D2E /* WRDHeadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRDHeadingView.swift; sourceTree = "<group>"; };
+		87DC12D727D78B9400267D2E /* WRDWordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRDWordView.swift; sourceTree = "<group>"; };
+		87DC12D827D78B9400267D2E /* WRDKeyboardButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRDKeyboardButton.swift; sourceTree = "<group>"; };
+		87DC12D927D78B9400267D2E /* WRDMessengerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRDMessengerButton.swift; sourceTree = "<group>"; };
+		87DC12DA27D78B9400267D2E /* WRDKeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRDKeyboardView.swift; sourceTree = "<group>"; };
+		87DC12DB27D78B9400267D2E /* WRDLetterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRDLetterView.swift; sourceTree = "<group>"; };
+		87DC12DC27D78B9400267D2E /* WRDGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRDGridView.swift; sourceTree = "<group>"; };
+		87DC12DD27D78B9400267D2E /* WRDGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRDGameController.swift; sourceTree = "<group>"; };
+		87DC12DE27D78B9400267D2E /* WRDDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRDDictionary.swift; sourceTree = "<group>"; };
+		87E63B6127DB38F70003506C /* WRDString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRDString.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87DC12A027D78B5F00267D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DC12B627D78B6100267D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DC12C027D78B6100267D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87DC129A27D78B5F00267D2E = {
+			isa = PBXGroup;
+			children = (
+				87DC12A527D78B5F00267D2E /* Waddle */,
+				87DC12BC27D78B6100267D2E /* WaddleTests */,
+				87DC12C627D78B6100267D2E /* WaddleUITests */,
+				87DC12A427D78B5F00267D2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87DC12A427D78B5F00267D2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87DC12A327D78B5F00267D2E /* Waddle.app */,
+				87DC12B927D78B6100267D2E /* WaddleTests.xctest */,
+				87DC12C327D78B6100267D2E /* WaddleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87DC12A527D78B5F00267D2E /* Waddle */ = {
+			isa = PBXGroup;
+			children = (
+				87DC12DE27D78B9400267D2E /* WRDDictionary.swift */,
+				87DC12DD27D78B9400267D2E /* WRDGameController.swift */,
+				87DC12DC27D78B9400267D2E /* WRDGridView.swift */,
+				87DC12D627D78B9400267D2E /* WRDHeadingView.swift */,
+				87DC12D827D78B9400267D2E /* WRDKeyboardButton.swift */,
+				87DC12DA27D78B9400267D2E /* WRDKeyboardView.swift */,
+				87DC12DB27D78B9400267D2E /* WRDLetterView.swift */,
+				87DC12D927D78B9400267D2E /* WRDMessengerButton.swift */,
+				87DC12D727D78B9400267D2E /* WRDWordView.swift */,
+				87E63B6127DB38F70003506C /* WRDString.swift */,
+				87DC12A627D78B5F00267D2E /* AppDelegate.swift */,
+				87DC12A827D78B5F00267D2E /* SceneDelegate.swift */,
+				87DC12AA27D78B5F00267D2E /* ViewController.swift */,
+				87DC12AC27D78B5F00267D2E /* Main.storyboard */,
+				87DC12AF27D78B6100267D2E /* Assets.xcassets */,
+				87DC12B127D78B6100267D2E /* LaunchScreen.storyboard */,
+				87DC12B427D78B6100267D2E /* Info.plist */,
+			);
+			path = Waddle;
+			sourceTree = "<group>";
+		};
+		87DC12BC27D78B6100267D2E /* WaddleTests */ = {
+			isa = PBXGroup;
+			children = (
+				87DC12BD27D78B6100267D2E /* WaddleTests.swift */,
+			);
+			path = WaddleTests;
+			sourceTree = "<group>";
+		};
+		87DC12C627D78B6100267D2E /* WaddleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87DC12C727D78B6100267D2E /* WaddleUITests.swift */,
+				87DC12C927D78B6100267D2E /* WaddleUITestsLaunchTests.swift */,
+			);
+			path = WaddleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87DC12A227D78B5F00267D2E /* Waddle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87DC12CD27D78B6100267D2E /* Build configuration list for PBXNativeTarget "Waddle" */;
+			buildPhases = (
+				87DC129F27D78B5F00267D2E /* Sources */,
+				87DC12A027D78B5F00267D2E /* Frameworks */,
+				87DC12A127D78B5F00267D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waddle;
+			productName = Waddle;
+			productReference = 87DC12A327D78B5F00267D2E /* Waddle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87DC12B827D78B6100267D2E /* WaddleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87DC12D027D78B6100267D2E /* Build configuration list for PBXNativeTarget "WaddleTests" */;
+			buildPhases = (
+				87DC12B527D78B6100267D2E /* Sources */,
+				87DC12B627D78B6100267D2E /* Frameworks */,
+				87DC12B727D78B6100267D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87DC12BB27D78B6100267D2E /* PBXTargetDependency */,
+			);
+			name = WaddleTests;
+			productName = WaddleTests;
+			productReference = 87DC12B927D78B6100267D2E /* WaddleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87DC12C227D78B6100267D2E /* WaddleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87DC12D327D78B6100267D2E /* Build configuration list for PBXNativeTarget "WaddleUITests" */;
+			buildPhases = (
+				87DC12BF27D78B6100267D2E /* Sources */,
+				87DC12C027D78B6100267D2E /* Frameworks */,
+				87DC12C127D78B6100267D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87DC12C527D78B6100267D2E /* PBXTargetDependency */,
+			);
+			name = WaddleUITests;
+			productName = WaddleUITests;
+			productReference = 87DC12C327D78B6100267D2E /* WaddleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87DC129B27D78B5F00267D2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					87DC12A227D78B5F00267D2E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					87DC12B827D78B6100267D2E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 87DC12A227D78B5F00267D2E;
+					};
+					87DC12C227D78B6100267D2E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 87DC12A227D78B5F00267D2E;
+					};
+				};
+			};
+			buildConfigurationList = 87DC129E27D78B5F00267D2E /* Build configuration list for PBXProject "Waddle" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87DC129A27D78B5F00267D2E;
+			productRefGroup = 87DC12A427D78B5F00267D2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87DC12A227D78B5F00267D2E /* Waddle */,
+				87DC12B827D78B6100267D2E /* WaddleTests */,
+				87DC12C227D78B6100267D2E /* WaddleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87DC12A127D78B5F00267D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DC12B327D78B6100267D2E /* LaunchScreen.storyboard in Resources */,
+				87DC12B027D78B6100267D2E /* Assets.xcassets in Resources */,
+				87DC12AE27D78B5F00267D2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DC12B727D78B6100267D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DC12C127D78B6100267D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87DC129F27D78B5F00267D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DC12AB27D78B5F00267D2E /* ViewController.swift in Sources */,
+				87DC12E727D78B9400267D2E /* WRDDictionary.swift in Sources */,
+				87DC12E327D78B9400267D2E /* WRDKeyboardView.swift in Sources */,
+				87DC12E627D78B9400267D2E /* WRDGameController.swift in Sources */,
+				87DC12E227D78B9400267D2E /* WRDMessengerButton.swift in Sources */,
+				87DC12A727D78B5F00267D2E /* AppDelegate.swift in Sources */,
+				87DC12A927D78B5F00267D2E /* SceneDelegate.swift in Sources */,
+				87DC12E427D78B9400267D2E /* WRDLetterView.swift in Sources */,
+				87DC12E527D78B9400267D2E /* WRDGridView.swift in Sources */,
+				87DC12E027D78B9400267D2E /* WRDWordView.swift in Sources */,
+				87DC12E127D78B9400267D2E /* WRDKeyboardButton.swift in Sources */,
+				87DC12DF27D78B9400267D2E /* WRDHeadingView.swift in Sources */,
+				87E63B6227DB38F70003506C /* WRDString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DC12B527D78B6100267D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DC12BE27D78B6100267D2E /* WaddleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DC12BF27D78B6100267D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DC12C827D78B6100267D2E /* WaddleUITests.swift in Sources */,
+				87DC12CA27D78B6100267D2E /* WaddleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87DC12BB27D78B6100267D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87DC12A227D78B5F00267D2E /* Waddle */;
+			targetProxy = 87DC12BA27D78B6100267D2E /* PBXContainerItemProxy */;
+		};
+		87DC12C527D78B6100267D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87DC12A227D78B5F00267D2E /* Waddle */;
+			targetProxy = 87DC12C427D78B6100267D2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87DC12AC27D78B5F00267D2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87DC12AD27D78B5F00267D2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87DC12B127D78B6100267D2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87DC12B227D78B6100267D2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87DC12CB27D78B6100267D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87DC12CC27D78B6100267D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87DC12CE27D78B6100267D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99RY7DMR6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Waddle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klynt.Waddle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87DC12CF27D78B6100267D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99RY7DMR6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Waddle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klynt.Waddle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87DC12D127D78B6100267D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99RY7DMR6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klynt.WaddleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waddle.app/Waddle";
+			};
+			name = Debug;
+		};
+		87DC12D227D78B6100267D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99RY7DMR6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klynt.WaddleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waddle.app/Waddle";
+			};
+			name = Release;
+		};
+		87DC12D427D78B6100267D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99RY7DMR6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klynt.WaddleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Waddle;
+			};
+			name = Debug;
+		};
+		87DC12D527D78B6100267D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99RY7DMR6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klynt.WaddleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Waddle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87DC129E27D78B5F00267D2E /* Build configuration list for PBXProject "Waddle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DC12CB27D78B6100267D2E /* Debug */,
+				87DC12CC27D78B6100267D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87DC12CD27D78B6100267D2E /* Build configuration list for PBXNativeTarget "Waddle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DC12CE27D78B6100267D2E /* Debug */,
+				87DC12CF27D78B6100267D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87DC12D027D78B6100267D2E /* Build configuration list for PBXNativeTarget "WaddleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DC12D127D78B6100267D2E /* Debug */,
+				87DC12D227D78B6100267D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87DC12D327D78B6100267D2E /* Build configuration list for PBXNativeTarget "WaddleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DC12D427D78B6100267D2E /* Debug */,
+				87DC12D527D78B6100267D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87DC129B27D78B5F00267D2E /* Project object */;
+}
